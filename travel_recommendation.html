@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Bloom</title>
+	<link rel='stylesheet' media='screen and (min-width: 750px)' href='./travel_recommendation_medium.css' />
+	<link rel='stylesheet' media='screen and (max-width: 750px)' href='./travel_recommendation_small.css' />
+</head>
+<body>
+	<div class="container">
+		<nav id="navBar">
+			<h1 id="navHeading">Travel Bloom</h1>
+			<ul id="navBarList">
+			  <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+			  <li><a href="./travel_about.html" id="about">About Us </a></li>
+			  <li><a href="./travel_contact.html" id="contact">Contact Us </a></li>
+			  <li><input type="text" id="destinationInput" placeholder="Enter a location or keyword">  </li>
+			  <li><button id='btnSearch'>Search</button></li>
+			  <li><button id='btnClear'>Clear</button></li>
+			</ul>
+		</nav>
+		<div id="homeContainer">
+			<ul id="smIconsList">
+				<li><a href="twitter.com"><img src="./assets/sm-twitter.svg" width="40" height="40"></img></a> </li>
+				<li><a href="facebook.com"><img src="./assets/sm-facebook.svg" width="40" height="40"></img></a> </li>
+				<li><a href="youtube.com"><img src="./assets/sm-youtube.svg" width="40" height="40"></img></a> </li>
+				<li><a href="instagram.com"><img src="./assets/sm-instagram1.svg" width="38" height="38"></img></a> </li>			
+			</ul>
+			<div>
+				<h1 class="pageHeading">VISIT DREAM DESTINATIONS</h1>
+				<p class="pageText">Embark on a journey unto the </p>
+				<button class="pageButton">BOOK NOW</button>
+			</div>
+			<div>
+			</div>
+		</div>
+		<div id="aboutContainer">
+			<ul id="smIconsList">
+				<li><a href="twitter.com"><img src="./assets/sm-twitter.svg" width="40" height="40"></img></a> </li>
+				<li><a href="facebook.com"><img src="./assets/sm-facebook.svg" width="40" height="40"></img></a> </li>
+				<li><a href="youtube.com"><img src="./assets/sm-youtube.svg" width="40" height="40"></img></a> </li>
+				<li><a href="instagram.com"><img src="./assets/sm-instagram1.svg" width="38" height="38"></img></a> </li>			
+			</ul>
+			<p>
+				Information about the company
+			</p>
+			<ul> [Inline List]
+				<li><h3>Our Team</h3></li>
+				<li>
+					<div>
+						<img>Small picture</img>
+						<ul>
+							<li>Andres B</li>
+							<li>Andres is responsible for the analysis, design, and programming of the site</li>
+							<li>CEO, CTO</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					Placeholder card (Join our team)
+				</li>
+			</ul>
+		</div>
+		<div id="contactContainer">
+			<ul id="smIconsList">
+				<li><a href="twitter.com"><img src="./assets/sm-twitter.svg" width="40" height="40"></img></a> </li>
+				<li><a href="facebook.com"><img src="./assets/sm-facebook.svg" width="40" height="40"></img></a> </li>
+				<li><a href="youtube.com"><img src="./assets/sm-youtube.svg" width="40" height="40"></img></a> </li>
+				<li><a href="instagram.com"><img src="./assets/sm-instagram1.svg" width="38" height="38"></img></a> </li>			
+			</ul>
+			<ul id="contactFormContainer">
+				<li class="contactListItem">
+					<h1>CONTACT US</H1>
+					<p>Get in touch</p>
+				</li>
+				Use FETCH API, Research on Coursera
+				<li class="contactListItem">
+					<form id="contactForm"> 
+						<label for="formName">Name</label><br>
+						<input type="text" id="formName" name="formName" placeholder="Enter your name"><br>
+						<label for="formEmail">Email</label><br>
+						<input type="email" id="formEmail" name="formEmail" placeholder="Enter your email address"><br>
+						<label for="formMessage">Message</label><br>
+						<textarea id="formMessage" name="formMessage" rows="10" cols="30">Enter </textarea><br>
+						<input type="submit" id="formSubmit"/>
+					</form>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

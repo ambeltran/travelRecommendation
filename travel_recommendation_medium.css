@@ -1,0 +1,111 @@
+body {
+	min-width: 100%;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+}
+
+#navBar {
+	background-color: black;
+	top: 0px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#navHeading {
+	color: white;
+	padding-left: 1em;
+	font-family: Arial;
+	font-style: italic;
+}
+
+#navBar > ul {
+	position: absolute;
+	right: 0px;
+}
+
+#navBarList > li {
+	list-style: none;
+	margin: 0 1em 0 0;
+	display: inline;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2em;
+	font-family: Arial;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#homeContainer {
+	background-image: url("./assets/JAP-Tokyo.jpg");
+	background-size: 99.9%;
+	background-repeat: repeat;
+	background-color: grey;
+	width: inherit;
+	min-height: 480px;
+	align-content: center;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	//flex-direction: column;
+	//flex-wrap: wrap;
+}
+
+#smIconsList {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	flex-grow: 1;
+	gap: 1em;
+	list-style: none;
+}
+
+.pageHeading {
+	font-size: 5em;
+	color: white;
+}
+
+.pageText {
+	font-size: 1.5em;
+	color: white;
+}
+
+.pageButton {
+	background-color: #256670;
+	font-size: 1em;
+	color: white;
+	padding: 1em 2em 1em 2em;
+	border-radius: 10px;
+	border-style: none;
+}
+
+#aboutContainer {
+	background-color: cyan;
+	width: inherit;
+	min-height: 400px;
+}
+
+#contactContainer {
+	background-color: grey;
+	width: inherit;
+	min-height: 400px;
+}
+
+#contactFormContainer {
+	min-height: 150px;
+}
+
+#contactForm {
+	min-height: 150px;
+	min-width: 100px;
+}
